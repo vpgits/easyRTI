@@ -21,4 +21,4 @@ This is a web application that allows users to generate Right to Information (RT
 
 You can become a Patron to help me do more of these, because then I don't have to go out and do a 'real job.'
 
-<a href="https://www.patreon.com/bePatron?u=49713840" data-patreon-widget-type="become-patron-button">Become a member!</a><script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
+<a href="https://www.patreon.com/bePatron?u=49713840" data-patreon-widget-type="become-patron-button">Become a member!</a>
