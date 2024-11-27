@@ -1,3 +1,4 @@
+// src/components/EmailForm.js
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
 
@@ -23,18 +24,21 @@ const handleSubmit = (e) => {
 
 return (
   <form onSubmit={handleSubmit} className="mb-4">
-    <label className="block text-gray-700 text-sm font-bold mb-2">
+    <label className="block text-dark-text text-sm font-bold mb-2">
       Your Email Address
     </label>
     <input
       type="email"
-      className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+      className="w-full py-2 px-3 mb-2 bg-dark-secondary text-dark-text rounded border border-gray-700 focus:outline-none focus:border-dark-accent"
       value={email}
       onChange={(e) => setEmail(e.target.value)}
       required
       placeholder="Enter your email"
     />
-    <button type="submit" className="mt-2 bg-blue-500 text-white py-2 px-4 rounded">
+    <button 
+      type="submit" 
+      className="bg-dark-accent text-dark-text py-2 px-4 rounded hover:bg-opacity-90 transition-colors duration-200"
+    >
       Send PDF
     </button>
   </form>
