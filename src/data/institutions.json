@@ -1,0 +1,20 @@
+{
+"institutions": [
+  {
+    "id": "1",
+    "name": {
+      "en": "Example Institution",
+      "si": "උදාහරණ ආයතනය",
+      "ta": "உதாரண நிறுவனம்"
+    },
+    "address": {
+      "en": "123 Main Street, Colombo",
+      "si": "123 ප්‍රධාන වීදිය, කොළඹ",
+      "ta": "123 பிரதான வீதி, கொழும்பு"
+    },
+    "email": "info@example.gov.lk",
+    "phone": "011-1234567",
+    "category": "government"
+  }
+]
+}
