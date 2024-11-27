@@ -1,3 +1,4 @@
+// src/components/RequestForm.js
 import React from 'react';
 
 const RequestForm = ({ language, onTextChange }) => {
@@ -18,11 +19,11 @@ const templates = {
 
 return (
   <div className="mb-4">
-    <label className="block text-gray-700 text-sm font-bold mb-2">
+    <label className="block text-dark-text text-sm font-bold mb-2">
       Your Right to Information Request
     </label>
     <select
-      className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline mb-2"
+      className="w-full py-2 px-3 mb-2 bg-dark-secondary text-dark-text rounded border border-gray-700 focus:outline-none focus:border-dark-accent"
       onChange={(e) => onTextChange(e.target.value)}
     >
       <option value="">Select a template</option>
@@ -33,7 +34,7 @@ return (
       ))}
     </select>
     <textarea
-      className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+      className="w-full py-2 px-3 bg-dark-secondary text-dark-text rounded border border-gray-700 focus:outline-none focus:border-dark-accent"
       rows="4"
       placeholder="Or type your own request..."
       onChange={(e) => onTextChange(e.target.value)}
