@@ -2,7 +2,6 @@
 "name": "easyrti",
 "version": "0.1.0",
 "private": true,
-"homepage": "https://[your-username].github.io/easyRTI",
 "dependencies": {
   "@headlessui/react": "^1.7.17",
   "@heroicons/react": "^2.0.18",
