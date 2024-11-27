@@ -1,0 +1,25 @@
+{
+"templates": {
+  "en": [
+    {
+      "id": "1",
+      "title": "Basic Information Request",
+      "content": "Under the Right to Information Act, No. 12 of 2016, I hereby request the following information:"
+    }
+  ],
+  "si": [
+    {
+      "id": "1",
+      "title": "මූලික තොරතුරු ඉල්ලීම",
+      "content": "2016 අංක 12 දරණ තොරතුරු දැනගැනීමේ අයිතිවාසිකම් පිළිබඳ පනත යටතේ පහත තොරතුරු ඉල්ලා සිටිමි:"
+    }
+  ],
+  "ta": [
+    {
+      "id": "1",
+      "title": "அடிப்படை தகவல் கோரிக்கை",
+      "content": "2016 ஆம் ஆண்டின் 12 ஆம் இலக்க தகவல் அறியும் உரிமைச் சட்டத்தின் கீழ், பின்வரும் தகவல்களை நான் கோருகிறேன்:"
+    }
+  ]
+}
+}
