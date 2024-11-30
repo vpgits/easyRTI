@@ -8,8 +8,8 @@ This is a web application that allows users to generate Right to Information (RT
 - Non-fugly dark-mode UI [Needs to be done]
 - Searchable institution list [Working on it]
 -   Database and backend
--     using Google Maps API [Idea]
--     User registration for collab support [Parked]
+-    Using Google Maps API [Idea]
+-    User registration for collab support [Parked]
 - Template selection for requests [Low priority]
 - PDF generation [Parked]
 - Email functionality [Parked]
