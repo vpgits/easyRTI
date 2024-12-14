@@ -1,5 +1,7 @@
 # easyRTI
 
+This is done by volunteers, so always looking for help. Currently temporarily hosted on Vercel free because no finances for a full deployment. Eventually will go into being a full app on its own domain. You can <a href="https://www.patreon.com/bePatron?u=49713840" data-patreon-widget-type="become-patron-button">become a Patron</a> to help me do more of these, because then I don't have to go out and do a 'real job.'
+
 This is a web application that allows users to generate Right to Information (RTI) requests in multiple languages (Sinhala, Tamil, and English). Users [in the complete final version] can select an institution [from a list], choose a template, and generate a PDF of their request. I don't know how to code, so I have used generative AI to put this together. I still need a tonne of help, so let me know if you can help with (UI is a first to make it look less fugly).
 
 Any edits with GAI as comments are edits that I made through generative AI, so would definitely need having looked-at by humans because I don't know coding at all. This initially started as a simple generator, and it sill mostly is. But now there is a fuller plan so future expansion can be kept in mind when developing.
