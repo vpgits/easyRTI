@@ -63,5 +63,3 @@ Users get to download a calendar appointment file to add to their calendars to h
 - PDF generation [Parked]
 - Email functionality [Parked]
 - Generative AI assistance for request generation [Parked]
-
-You can <a href="https://www.patreon.com/bePatron?u=49713840" data-patreon-widget-type="become-patron-button">become a Patron</a> to help me do more of these, because then I don't have to go out and do a 'real job.'
