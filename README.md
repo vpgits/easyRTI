@@ -50,6 +50,37 @@ Users get to download a calendar appointment file to add to their calendars to h
 - will have appeal tools to Designated Officer and RTI Commission
 - Timekeeping with reminder emails
 
+## Strcture for Addresses
+
+•	National
+  o	Special Spending Units
+  o	Government Departments
+  o	Ministries
+  o	Independent Commissions
+  o	State Owned Enterprises
+•	Provincial (has the nine)
+  o	Provincial Councils
+  o	Provincial Ministries
+•	District (has the twenty-five)
+  o	District Secretariats
+•	Pradeshiya Sabha (has the full list)
+  o	Full list
+•	Urban/Municipal Councils (has the ful list)
+  o	Full list
+•	Police Stations
+  o	Provincial
+    	District
+      •	Division
+        o	List
+•	Schools
+  o	Provincial
+    	District
+      o	List
+•	Hospitals
+  o	Provincial
+    	District
+      o	List
+
 ## Original Roadmap
 
 - Multi-language support [Mostly done]
