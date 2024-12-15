@@ -1,4 +1,4 @@
-# easyRTI
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 This is done by volunteers, so always looking for help. Currently temporarily hosted on Vercel free because no finances for a full deployment. Eventually will go into being a full app on its own domain. You can <a href="https://www.patreon.com/bePatron?u=49713840" data-patreon-widget-type="become-patron-button">become a Patron</a> to help me do more of these, because then I don't have to go out and do a 'real job.'
 
