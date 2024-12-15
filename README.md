@@ -52,34 +52,34 @@ Users get to download a calendar appointment file to add to their calendars to h
 
 ## Strcture for Addresses
 
-•	National
-  o	Special Spending Units
-  o	Government Departments
-  o	Ministries
-  o	Independent Commissions
-  o	State Owned Enterprises
-•	Provincial (has the nine)
-  o	Provincial Councils
-  o	Provincial Ministries
-•	District (has the twenty-five)
-  o	District Secretariats
-•	Pradeshiya Sabha (has the full list)
-  o	Full list
-•	Urban/Municipal Councils (has the ful list)
-  o	Full list
-•	Police Stations
-  o	Provincial
-    	District
-      •	Division
-        o	List
-•	Schools
-  o	Provincial
-    	District
-      o	List
-•	Hospitals
-  o	Provincial
-    	District
-      o	List
+National
+  Special Spending Units
+  Government Departments
+  Ministries
+  Independent Commissions
+State Owned Enterprises
+  Provincial (has the nine)
+    Provincial Councils
+    Provincial Ministries
+District (has the twenty-five)
+    District Secretariats
+Pradeshiya Sabha (has the full list)
+    Full list
+Urban/Municipal Councils (has the ful list)
+    Full list
+Police Stations
+  Provincial
+    District
+      Division
+        List
+Schools
+  Provincial
+    District
+      List
+Hospitals
+    Provincial
+      District
+        List
 
 ## Original Roadmap
 
