@@ -52,22 +52,22 @@ Users get to download a calendar appointment file to add to their calendars to h
 
 ## Strcture for Addresses
 
-National
+- National
   Special Spending Units
   Government Departments
   Ministries
   Independent Commissions
-State Owned Enterprises
+- State Owned Enterprises
   Provincial (has the nine)
     Provincial Councils
     Provincial Ministries
-District (has the twenty-five)
+- District (has the twenty-five)
     District Secretariats
-Pradeshiya Sabha (has the full list)
+- Pradeshiya Sabha (has the full list)
     Full list
-Urban/Municipal Councils (has the ful list)
+- Urban/Municipal Councils (has the ful list)
     Full list
-Police Stations
+- Police Stations
   Provincial
     District
       Division
