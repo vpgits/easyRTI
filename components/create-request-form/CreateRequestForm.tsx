@@ -431,14 +431,20 @@ export default function CreateRequestForm({
 
             {/* Template Selection */}
             <div className="space-y-2">
-              <Label htmlFor="template">Template</Label>
+              <Label htmlFor="template">Template</Label>{" "}
               <Select
                 value={selectedTemplate}
                 onValueChange={handleTemplateChange}
                 name="template"
               >
-                <SelectTrigger id="template" className="w-full">
-                  <SelectValue placeholder="Select a template" />
+                <SelectTrigger
+                  id="template"
+                  className="w-full whitespace-pre-wrap min-h-[2.5rem] h-auto items-start py-2"
+                >
+                  <SelectValue
+                    placeholder="Select a template"
+                    className="whitespace-pre-wrap break-words"
+                  />
                 </SelectTrigger>
                 <SelectContent>
                   {templates &&
@@ -448,8 +454,11 @@ export default function CreateRequestForm({
                       <SelectItem
                         key={index}
                         value={template[selectedLanguage]}
+                        className="whitespace-pre-wrap break-words py-2"
                       >
-                        {template[selectedLanguage]}
+                        <div className="w-full pr-4">
+                          {template[selectedLanguage]}
+                        </div>
                       </SelectItem>
                     ))
                   ) : (
