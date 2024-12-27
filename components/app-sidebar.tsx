@@ -26,6 +26,8 @@ import {
   SidebarRail,
 } from "@/components/ui/sidebar";
 import { User } from "@supabase/supabase-js";
+import { Button } from "./ui/button";
+import Link from "next/link";
 
 // This is sample data.
 const data = {
@@ -161,6 +163,11 @@ export function AppSidebar({
   user,
   ...props
 }: React.ComponentProps<typeof Sidebar> & { user: User | null }) {
+  if (!user) {
+    data.navMain = data.navMain.map((item) =>
+      item.title === "Requests" ? { ...item, items: [] } : item
+    );
+  }
   return (
     <Sidebar collapsible="icon" {...props}>
       <SidebarHeader>
@@ -171,7 +178,13 @@ export function AppSidebar({
         {/* <NavProjects projects={data.projects} /> */}
       </SidebarContent>
       <SidebarFooter>
-        <NavUser user={user} />
+        {user ? (
+          <NavUser user={user} />
+        ) : (
+          <Button type="button" className="mx-auto">
+            <Link href={"/login"}> Sign In</Link>
+          </Button>
+        )}
       </SidebarFooter>
       <SidebarRail />
     </Sidebar>
