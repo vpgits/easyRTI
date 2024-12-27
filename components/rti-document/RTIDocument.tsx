@@ -13,7 +13,6 @@ import { Language } from "@/types/languages";
 import { PersonalInfo } from "@/types/personalInfo";
 import { Authority } from "@/types/authority";
 import { TrilingualContent } from "@/types/languages";
-import { Database } from "@/types/database.types";
 import { JSX } from "react";
 
 try {
@@ -129,7 +128,7 @@ const RTIRequestDocument = ({
   const getContent = (
     content: TrilingualContent<string> | null
   ): JSX.Element => {
-    if (!content) return <Text>""</Text>;
+    if (!content) return <Text>&quot;&quot;</Text>;
     const text = content[language] || "";
     const textStyle =
       language === "si"
